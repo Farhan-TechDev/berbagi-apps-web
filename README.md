@@ -6,7 +6,7 @@ Website ini dibangun dengan **Next.js 15.1.7** dan **Tailwind CSS** agar tampil 
 
 ---
 
-## 🚀 Fitur Utama
+## Fitur Utama
 
 - Hero Section dengan headline kuat dan mockup aplikasi
 - About Us Section untuk mengenalkan platform
@@ -18,7 +18,7 @@ Website ini dibangun dengan **Next.js 15.1.7** dan **Tailwind CSS** agar tampil 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - [Next.js](https://nextjs.org/) (React Framework)
 - [Tailwind CSS](https://tailwindcss.com/) (Utility-first CSS)
@@ -26,7 +26,7 @@ Website ini dibangun dengan **Next.js 15.1.7** dan **Tailwind CSS** agar tampil 
 
 ---
 
-## 📁 Struktur Project
+## Struktur Project
 
 ```
 src/
@@ -47,7 +47,7 @@ src/
 
 ---
 
-## ⚙️ Cara Instalasi
+## Cara Instalasi
 
 1. Clone repository ini:
 
@@ -73,7 +73,7 @@ yarn install
 
 ---
 
-## 🖥️ Cara Menjalankan Development Server
+## Cara Menjalankan Development Server
 
 ```bash
 npm run dev
@@ -88,7 +88,7 @@ Server berjalan di:
 
 ---
 
-## 📸 Catatan Next.js 15.1.7 (Upgrade Important!)
+## Catatan Next.js 15.1.7 (Upgrade Important!)
 
 - Jangan gunakan prop `layout="fill"` di `<Image />` — sekarang pakai `fill` + `style={{ objectFit: 'contain' }}`.
 - Semua komponen harus di-**default export** supaya bisa diimport tanpa `{}`.
@@ -96,7 +96,7 @@ Server berjalan di:
 
 ---
 
-## ✨ Improvement Selanjutnya
+## Improvement Selanjutnya
 
 - Menyelesaikan Section-Section.
 - Menambahkan animasi scroll.
@@ -106,7 +106,7 @@ Server berjalan di:
 
 ---
 
-## 📄 Lisensi
+## Lisensi
 
 Proyek ini dilisensikan di bawah [MIT License](LICENSE).
 
