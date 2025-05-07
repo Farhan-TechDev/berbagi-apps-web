@@ -37,35 +37,32 @@ export default function AboutUsSection() {
         </div>
 
         <div className="relative w-full md:w-2/3 h-[320px]">
-          {/* Gambar besar di bawah */}
-          {/* Gambar besar di bawah */}
-<div
-  className="absolute bottom-0 right-0 w-[70%] h-[240px] rounded-xl overflow-hidden shadow-lg z-10 hover:scale-105 transition-transform duration-300"
-  data-aos="fade-left"
-  data-aos-delay="200"
->
-  <Image
-    src="/images/Komunitas.jpg"
-    alt="Gambar Besar"
-    fill
-    style={{ objectFit: "cover", objectPosition: "center" }}
-  />
-</div>
+          <div
+            className="absolute bottom-0 right-0 w-[70%] h-[240px] rounded-xl overflow-hidden shadow-lg z-10 hover:scale-105 transition-transform duration-300"
+            data-aos="fade-left"
+            data-aos-delay="200"
+          >
+            <Image
+              src="/images/Komunitas.jpg"
+              alt="Gambar Besar"
+              fill
+              style={{ objectFit: "cover", objectPosition: "center" }}
+            />
+          </div>
 
-{/* Gambar kecil ditumpuk di atas */}
-<div
-  className="absolute top-0 left-0 w-[50%] h-[180px] rounded-xl overflow-hidden shadow-md z-20 hover:scale-105 transition-transform duration-300"
-  data-aos="zoom-in"
-  data-aos-delay="200"
-  style={{ transform: "rotate(-8deg)" }}
->
-  <Image
-    src="/images/Komunitas.jpg"
-    alt="Gambar Kecil"
-    fill
-    style={{ objectFit: "cover", objectPosition: "center" }}
-  />
-</div>
+          <div
+            className="absolute top-0 left-0 w-[50%] h-[180px] rounded-xl overflow-hidden shadow-md z-20 hover:scale-105 transition-transform duration-300"
+            data-aos="zoom-in"
+            data-aos-delay="200"
+            style={{ transform: "rotate(-8deg)" }}
+          >
+            <Image
+              src="/images/Komunitas.jpg"
+              alt="Gambar Kecil"
+              fill
+              style={{ objectFit: "cover", objectPosition: "center" }}
+            />
+          </div>
 
         </div>
       </div>

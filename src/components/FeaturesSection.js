@@ -37,7 +37,7 @@ export default function FiturUnggulanSection() {
   ];
 
   return (
-    <section className="min-h-[70vh] py-30 px-10">
+    <section className="min-h-[70vh] py-6 px-10">
       <h2
         className="text-4xl font-bold text-center mb-12 text-[#2B7A78]"
         data-aos="fade-down"
