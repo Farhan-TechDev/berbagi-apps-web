@@ -4,7 +4,7 @@ export default function HeroSection() {
   return (
     <section className="relative flex items-center justify-center min-h-screen bg-[#FFFFFF] px-6 py-6">
       <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between w-full">
-        {/* Text Section */}
+
         <div className="text-center md:text-left md:w-1/2">
           <h1 className="text-4xl md:text-7xl font-bold text-[#2B7A78] leading-tight">
             Bersama Kita Berbagi.
@@ -19,7 +19,6 @@ export default function HeroSection() {
           </button>
         </div>
 
-        {/* Image Mockup Section */}
         <div className="flex justify-center md:mb-0">
           <div
             className="relative w-96 h-[36rem]"
@@ -38,7 +37,6 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* Dekorasi */}
       <div className="absolute top-0 left-0 w-40 h-40 bg-[#FFD166] rounded-full opacity-30 blur-2xl animate-pulse"></div>
       <div className="absolute bottom-0 right-0 w-40 h-40 bg-[#2B7A78] rounded-full opacity-30 blur-2xl animate-pulse"></div>
 

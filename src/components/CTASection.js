@@ -28,31 +28,29 @@ export default function CTASection() {
           </div>
         </div>
 
-        {/* Gambar Mockup dengan animasi float */}
         <div
-  className="relative w-full md:w-[300px] h-[500px] mx-auto"
-  data-aos="fade-up"
-  data-aos-duration="1000"
->
-  <div
-    className="absolute inset-0"
-    style={{
-      animation: 'float 3s ease-in-out infinite',
-    }}
-  >
-    <Image
-      src="/images/mockup.png"
-      alt="Tampilan antarmuka BERBAGI Apps di perangkat mobile"
-      fill
-      priority
-      className="object-contain drop-shadow-2xl"
-    />
-  </div>
-</div>
+          className="relative w-full md:w-[300px] h-[500px] mx-auto"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div
+            className="absolute inset-0"
+            style={{
+              animation: 'float 3s ease-in-out infinite',
+            }}
+          >
+            <Image
+              src="/images/mockup.png"
+              alt="Tampilan antarmuka BERBAGI Apps di perangkat mobile"
+              fill
+              priority
+              className="object-contain drop-shadow-2xl"
+            />
+          </div>
+        </div>
 
       </div>
 
-      {/* Dekorasi Blur (opsional) */}
       <div className="absolute top-0 left-0 w-40 h-40 bg-[#FFD166] rounded-full opacity-30 blur-2xl animate-pulse"></div>
       <div className="absolute bottom-0 right-0 w-40 h-40 bg-[#2B7A78] rounded-full opacity-30 blur-2xl animate-pulse"></div>
 
