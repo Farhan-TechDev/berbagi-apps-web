@@ -18,6 +18,9 @@ export default {
         medium: '500',
         bold: '700',
       },
+      scrollBehavior: {
+        smooth: 'smooth',
+      },
     },
   },
   plugins: [],
