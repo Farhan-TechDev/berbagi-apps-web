@@ -51,8 +51,8 @@ export default function CTASection() {
 
       </div>
 
-      <div className="absolute top-0 left-0 w-40 h-40 bg-[#FFD166] rounded-full opacity-30 blur-2xl animate-pulse"></div>
-      <div className="absolute bottom-0 right-0 w-40 h-40 bg-[#2B7A78] rounded-full opacity-30 blur-2xl animate-pulse"></div>
+      <div className="absolute top-0 left-0 w-40 h-40 bg-[#ffa726] rounded-full opacity-30 blur-2xl animate-pulse"></div>
+      <div className="absolute bottom-0 right-0 w-40 h-40 bg-[#aacf5e] rounded-full opacity-30 blur-2xl animate-pulse"></div>
 
       {/* Keyframes untuk animasi float */}
       <style jsx>{`
