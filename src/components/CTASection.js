@@ -6,21 +6,21 @@ export default function CTASection() {
       <div className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-10">
         {/* Teks & Tombol */}
         <div className="md:w-1/2 text-center md:text-left" data-aos="fade-right">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-[#2B7A78]">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-[#aacf5e]">
             Ayo Mulai Berbagi Hari Ini!
           </h2>
-          <p className="mb-8 text-lg font-normal">
-            Unduh <strong className="text-[#2B7A78]">BERBAGI Apps</strong> dan bergabung dalam gerakan sosial berbasis teknologi.
+          <p className="mb-8 text-lg font-normal text-[#ffa726]">
+            Unduh <strong className="text-[#aacf5e]">BERBAGI Apps</strong> dan bergabung dalam gerakan sosial berbasis teknologi.
           </p>
           <div className="flex flex-col sm:flex-row sm:space-x-4 space-y-4 sm:space-y-0 justify-center md:justify-start">
             <button
-              className="bg-[#FFD166] hover:bg-yellow-400 text-[#17252A] font-semibold rounded-full px-6 py-3 shadow transition duration-300"
+              className="bg-[#ffa726] hover:bg-yellow-400 text-white font-semibold rounded-full px-6 py-3 shadow transition duration-300"
               aria-label="Unduh BERBAGI Apps di Play Store"
             >
               Download di Play Store
             </button>
             <button
-              className="bg-[#FFD166] hover:bg-yellow-400 text-[#17252A] font-semibold rounded-full px-6 py-3 shadow transition duration-300"
+              className="bg-[#ffa726] hover:bg-yellow-400 text-white font-semibold rounded-full px-6 py-3 shadow transition duration-300"
               aria-label="Unduh BERBAGI Apps di App Store"
             >
               Download di App Store
@@ -40,7 +40,7 @@ export default function CTASection() {
             }}
           >
             <Image
-              src="/images/mockup.png"
+              src="/images/mockup2.png"
               alt="Tampilan antarmuka BERBAGI Apps di perangkat mobile"
               fill
               priority

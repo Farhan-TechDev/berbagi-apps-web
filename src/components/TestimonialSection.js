@@ -33,7 +33,7 @@ export default function TestimonialSection() {
     <section className="bg-white py-6 px-6">
       <div className="max-w-6xl mx-auto">
         <h2
-          className="text-4xl font-bold text-center mb-12 text-[#2B7A78] font-poppins"
+          className="text-4xl font-bold text-center mb-12 text-[#aacf5e] font-poppins"
           data-aos="fade-down"
         >
           Cerita Mereka
@@ -55,10 +55,10 @@ export default function TestimonialSection() {
                   objectFit="cover"
                 />
               </div>
-              <p className="text-[#17252A] italic font-medium mb-4 font-poppins">
+              <p className="text-[#ffa726] italic font-medium mb-4 font-poppins">
                 “{t.quote}”
               </p>
-              <p className="font-semibold text-[#2B7A78] font-poppins">{t.name}</p>
+              <p className="font-semibold text-[#aacf5e] font-poppins">{t.name}</p>
             </div>
           ))}
         </div>

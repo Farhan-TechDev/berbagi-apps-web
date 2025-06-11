@@ -2,7 +2,7 @@ import { FaInstagram, FaFacebookF, FaLinkedinIn, FaXTwitter } from 'react-icons/
 
 export default function Footer() {
   return (
-    <footer className="bg-[#17252A] text-white py-12 px-6 text-center">
+    <footer className="bg-[#ffa726] text-white py-12 px-6 text-center">
       <div className="mt-6 flex flex-wrap justify-center gap-4 text-sm">
           <a href="#" className="hover:underline">Our Story</a>
           <a href="#" className="hover:underline">Our Impact</a>
@@ -22,7 +22,7 @@ export default function Footer() {
         </div>
 
 
-        <div className="mt-6 flex flex-wrap justify-center gap-4 text-xs text-gray-400">
+        <div className="mt-6 flex flex-wrap justify-center gap-4 text-xs text-white">
           <a href="#">Terms and Conditions</a>
           <a href="#">Privacy Policy</a>
           <a href="#">Cookie Policy</a>
@@ -30,7 +30,7 @@ export default function Footer() {
           <a href="#">Allergen Information</a>
         </div>
 
-        <p className="mt-4 text-xs text-gray-500">© {new Date().getFullYear()} BERBAGI Apps</p>
+        <p className="mt-4 text-xs text-white">© {new Date().getFullYear()} BERBAGI Apps</p>
     </footer>
   );
 }

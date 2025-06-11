@@ -16,22 +16,22 @@ export default function FiturUnggulanSection() {
   const fitur = [
     {
       title: "Donasi Praktis",
-      icon: <FaRegHandshake size={40} color="#2B7A78" />,
+      icon: <FaRegHandshake size={40} color="white" />,
       desc: "Kemudahan donasi hanya dengan beberapa klik, cepat dan aman.",
     },
     {
       title: "Aksi Sosial Terjadwal",
-      icon: <FaCalendarAlt size={40} color="#2B7A78" />,
+      icon: <FaCalendarAlt size={40} color="white" />,
       desc: "Aksi sosial yang terorganisir dan terjadwal untuk dampak yang maksimal.",
     },
     {
       title: "Jaringan Relawan",
-      icon: <FaUsers size={40} color="#2B7A78" />,
+      icon: <FaUsers size={40} color="white" />,
       desc: "Bergabung dengan relawan yang memiliki semangat dan tujuan sama.",
     },
     {
       title: "Laporan Transparan",
-      icon: <FaChartBar size={40} color="#2B7A78" />,
+      icon: <FaChartBar size={40} color="white" />,
       desc: "Laporan keuangan yang jelas dan mudah diakses untuk semua pihak.",
     },
   ];
@@ -39,7 +39,7 @@ export default function FiturUnggulanSection() {
   return (
     <section className="min-h-[70vh] py-6 px-10">
       <h2
-        className="text-4xl font-bold text-center mb-12 text-[#2B7A78]"
+        className="text-4xl font-bold text-center mb-12 text-[#aacf5e]"
         data-aos="fade-down"
       >
         Fitur Unggulan
@@ -52,13 +52,13 @@ export default function FiturUnggulanSection() {
             data-aos="fade-up"
             data-aos-delay={index * 150}
           >
-            <div className="w-20 h-20 mb-4 bg-[#FFE29A] rounded-full flex items-center justify-center text-4xl text-[#2B7A78]">
+            <div className="w-20 h-20 mb-4 bg-[#ffa726] rounded-full flex items-center justify-center text-4xl text-[#2B7A78]">
               {item.icon}
             </div>
-            <p className="text-lg font-semibold text-[#17252A] mb-2">
+            <p className="text-lg font-semibold text-[#aacf5e] mb-2">
               {item.title}
             </p>
-            <p className="text-sm text-gray-600">{item.desc}</p>
+            <p className="text-sm text-[#ffa726]">{item.desc}</p>
           </div>
         ))}
       </div>

@@ -17,13 +17,13 @@ export default function AboutUsSection() {
         {/* Teks */}
         <div className="md:w-1/2 text-center md:text-left">
           <h2
-            className="text-4xl font-bold mb-6 text-[#2B7A78]"
+            className="text-4xl font-bold mb-6 text-[#aacf5e]"
             data-aos="fade-up"
           >
             Apa itu BERBAGI Apps?
           </h2>
           <p
-            className="text-lg text-[#17252A] font-normal"
+            className="text-lg text-[#ffa726] font-normal"
             data-aos="fade-up"
             data-aos-delay="100"
           >
