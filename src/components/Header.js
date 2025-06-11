@@ -23,6 +23,7 @@ export default function Header() {
             <a href="#info" className="hover:text-[#aacf5e] transition-all">Info Selengkapnya</a>
             <a href="#fitur" className="hover:text-[#aacf5e] transition-all">Fitur</a>
             <a href="#testimoni" className="hover:text-[#aacf5e] transition-all">Testimoni</a>
+            <a href="#unduh" className="hover:text-[#aacf5e] transition-all">Unduh</a>
           </nav>
 
           {/* Hamburger Button */}
@@ -80,6 +81,13 @@ export default function Header() {
             onClick={() => setIsOpen(false)}
           >
             Testimoni
+          </a>
+          <a
+            href="#unduh"
+            className="text-sm font-semibold text-[#ffa726] hover:text-green-500"
+            onClick={() => setIsOpen(false)}
+          >
+            Unduh
           </a>
         </div>
       </div>
