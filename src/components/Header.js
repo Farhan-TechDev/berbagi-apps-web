@@ -7,14 +7,13 @@ export default function Header() {
   return (
     <>
       <header className="fixed top-0 left-0 w-full backdrop-blur-sm bg-white/80 shadow z-50">
-        <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+        <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-2">
           <div className="flex items-center gap-2">
             <img
-              src="/images/logo.png"
+              src="/images/logo1.png"
               alt="Logo Berbagi"
-              className="h-8 w-auto"
+              className="h-10 w-auto"
             />
-            <span className="text-2xl font-bold text-[#ffa726]">Berbagi</span>
           </div>
 
           {/* Desktop Menu */}

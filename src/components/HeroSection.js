@@ -27,7 +27,7 @@ export default function HeroSection() {
             }}
           >
             <Image
-              src="/images/mockup2.png"
+              src="/images/mockup3.png"
               alt="Mockup Aplikasi BERBAGI"
               layout="fill"
               objectFit="contain"

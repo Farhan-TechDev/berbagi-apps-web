@@ -40,7 +40,7 @@ export default function CTASection() {
             }}
           >
             <Image
-              src="/images/mockup2.png"
+              src="/images/mockup3.png"
               alt="Tampilan antarmuka BERBAGI Apps di perangkat mobile"
               fill
               priority
