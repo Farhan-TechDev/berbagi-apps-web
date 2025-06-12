@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function CTASection() {
   return (
-    <section className="relative bg-white text-[#17252A] py-24 px-6 font-poppins">
+    <section className="relative bg-white text-[#17252A] mb-24 px-6 font-poppins">
       <div className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-10">
         {/* Teks & Tombol */}
         <div className="md:w-1/2 text-center md:text-left" data-aos="fade-right">
